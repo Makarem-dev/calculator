@@ -7,36 +7,37 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Styles/style.css">
     <link rel="stylesheet" href="./Styles/reset.css">
+
 </head>
 
 <body>
     <section class="calculator-container">
         <div class="calculator-body">
             <div class="calculator-display">
-                <div class="calculator-summary">1212</div>
-                <div class="calculator-equal">1212</div>
+                <div data-calculator-summary class="calculator-summary"></div>
+                <div data-calculator-equal class="calculator-equal"></div>
             </div>
 
-            <button class="btn-light">C</button>
+            <button data-all-clear class="btn-light">C</button>
             <button class="btn-light">+/-</button>
-            <button class="btn-light">%</button>
-            <button class="btn-blue">÷</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="btn-blue">×</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="btn-blue">-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="btn-blue">+</button>
-            <button>.</button>
-            <button>0</button>
-            <button>←</button>
-            <button class="btn-blue">=</button>
+            <button data-operation class="btn-light">%</button>
+            <button data-operation class="btn-blue">÷</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation class="btn-blue">×</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation class="btn-blue">-</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation class="btn-blue">+</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-delete>←</button>
+            <button data-equal class="btn-blue">=</button>
         </div>
         <div class="nouch">
             <svg width="164" height="29" viewBox="0 0 164 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -54,6 +55,7 @@
 
 
     </section>
+    <script src="./script.js"></script>
 
 </body>
 
